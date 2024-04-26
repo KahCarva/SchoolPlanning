@@ -1,0 +1,11 @@
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\bin\Debug\net6.0\SchoolPlanning.Services.deps.json
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\bin\Debug\net6.0\SchoolPlanning.Services.dll
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\bin\Debug\net6.0\SchoolPlanning.Services.pdb
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\SchoolPlanning.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\SchoolPlanning.Services.AssemblyInfoInputs.cache
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\SchoolPlanning.Services.AssemblyInfo.cs
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\SchoolPlanning.Services.csproj.CoreCompileInputs.cache
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\SchoolPlanning.Services.dll
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\refint\SchoolPlanning.Services.dll
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\SchoolPlanning.Services.pdb
+C:\PROJETOS\SchoolPlanning\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\ref\SchoolPlanning.Services.dll

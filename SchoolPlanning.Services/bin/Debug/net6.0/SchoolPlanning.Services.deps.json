@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "SchoolPlanning.Services/1.0.0": {
+        "runtime": {
+          "SchoolPlanning.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SchoolPlanning.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

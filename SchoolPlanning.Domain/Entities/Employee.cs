@@ -11,6 +11,7 @@ namespace SchoolPlanning.Domain.Entities
     public class Employee: BaseEntity
     {
         public int SchoolId { get; set; }
+        public int ClassesId { get; set; }
 
         public string Name { get; set; }
 
@@ -24,5 +25,6 @@ namespace SchoolPlanning.Domain.Entities
 
         public School School { get; set; }
 
+        public Classes Classes { get; set; }
     }
 }

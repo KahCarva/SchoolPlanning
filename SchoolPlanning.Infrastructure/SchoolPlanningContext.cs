@@ -22,7 +22,8 @@ namespace SchoolPlanning.Infrastructure
 
         public virtual DbSet<School> School { get; set; }
         public virtual DbSet<Employee> Employee { get; set; }
-        
+        public virtual DbSet<Classes> Classes { get; set; }
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             new SchoolEntityConfiguration().Configure(modelBuilder.Entity<School>());

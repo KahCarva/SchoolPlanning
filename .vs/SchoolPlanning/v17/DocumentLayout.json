@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROJETOS\\SchoolPlanning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81B961FC-0F10-483D-8247-B3777D4C17D2}|SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj|c:\\projetos\\schoolplanning\\schoolplanning.infrastructure\\interfaces\\irepositorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B961FC-0F10-483D-8247-B3777D4C17D2}|SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj|solutionrelative:schoolplanning.infrastructure\\interfaces\\irepositorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81B961FC-0F10-483D-8247-B3777D4C17D2}|SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj|c:\\projetos\\schoolplanning\\schoolplanning.infrastructure\\repositories\\repositorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81B961FC-0F10-483D-8247-B3777D4C17D2}|SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj|solutionrelative:schoolplanning.infrastructure\\repositories\\repositorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01964382-2750-4FE5-9309-9D8873439576}|SchoolPlanning.IoC\\SchoolPlanning.IoC.csproj|c:\\projetos\\schoolplanning\\schoolplanning.ioc\\dependencyresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01964382-2750-4FE5-9309-9D8873439576}|SchoolPlanning.IoC\\SchoolPlanning.IoC.csproj|solutionrelative:schoolplanning.ioc\\dependencyresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DependencyResolver.cs",
+              "DocumentMoniker": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.IoC\\DependencyResolver.cs",
+              "RelativeDocumentMoniker": "SchoolPlanning.IoC\\DependencyResolver.cs",
+              "ToolTip": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.IoC\\DependencyResolver.cs",
+              "RelativeToolTip": "SchoolPlanning.IoC\\DependencyResolver.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T08:52:25.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repositorie.cs",
+              "DocumentMoniker": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\Repositories\\Repositorie.cs",
+              "RelativeDocumentMoniker": "SchoolPlanning.Infrastructure\\Repositories\\Repositorie.cs",
+              "ToolTip": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\Repositories\\Repositorie.cs",
+              "RelativeToolTip": "SchoolPlanning.Infrastructure\\Repositories\\Repositorie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T08:47:16.29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IRepositorie.cs",
+              "DocumentMoniker": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\Interfaces\\IRepositorie.cs",
+              "RelativeDocumentMoniker": "SchoolPlanning.Infrastructure\\Interfaces\\IRepositorie.cs",
+              "ToolTip": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\Interfaces\\IRepositorie.cs",
+              "RelativeToolTip": "SchoolPlanning.Infrastructure\\Interfaces\\IRepositorie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T08:44:57.365Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

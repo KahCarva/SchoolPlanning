@@ -21,6 +21,26 @@ namespace SchoolPlanning.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("SchoolPlanning.Domain.Entities.Classes", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("SchoolGrade")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Year")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Classes", "Entity");
+                });
+
             modelBuilder.Entity("SchoolPlanning.Domain.Entities.Employee", b =>
                 {
                     b.Property<int>("Id")
@@ -32,6 +52,9 @@ namespace SchoolPlanning.Infrastructure.Migrations
                     b.Property<string>("CPF")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ClassesId")
+                        .HasColumnType("int");
 
                     b.Property<string>("EMail")
                         .IsRequired()
@@ -53,6 +76,9 @@ namespace SchoolPlanning.Infrastructure.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ClassesId")
+                        .IsUnique();
 
                     b.HasIndex("SchoolId")
                         .IsUnique();
@@ -102,13 +128,27 @@ namespace SchoolPlanning.Infrastructure.Migrations
 
             modelBuilder.Entity("SchoolPlanning.Domain.Entities.Employee", b =>
                 {
+                    b.HasOne("SchoolPlanning.Domain.Entities.Classes", "Classes")
+                        .WithOne("Employee")
+                        .HasForeignKey("SchoolPlanning.Domain.Entities.Employee", "ClassesId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("SchoolPlanning.Domain.Entities.School", "School")
                         .WithOne("Employee")
                         .HasForeignKey("SchoolPlanning.Domain.Entities.Employee", "SchoolId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.Navigation("Classes");
+
                     b.Navigation("School");
+                });
+
+            modelBuilder.Entity("SchoolPlanning.Domain.Entities.Classes", b =>
+                {
+                    b.Navigation("Employee")
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("SchoolPlanning.Domain.Entities.School", b =>

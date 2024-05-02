@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolPlanning.API", "SchoolPlanning.API\SchoolPlanning.API.csproj", "{FE5D9E5D-5BBA-4E27-93C6-B3C31530C021}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolPlanning.API", "SchoolPlanning.API\SchoolPlanning.API.csproj", "{FE5D9E5D-5BBA-4E27-93C6-B3C31530C021}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolPlanning.Domain", "SchoolPlanning.Domain\SchoolPlanning.Domain.csproj", "{103B29BA-BF79-4C1B-8514-8220C3E0AFCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolPlanning.Domain", "SchoolPlanning.Domain\SchoolPlanning.Domain.csproj", "{103B29BA-BF79-4C1B-8514-8220C3E0AFCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolPlanning.IoC", "SchoolPlanning.IoC\SchoolPlanning.IoC.csproj", "{01964382-2750-4FE5-9309-9D8873439576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolPlanning.IoC", "SchoolPlanning.IoC\SchoolPlanning.IoC.csproj", "{01964382-2750-4FE5-9309-9D8873439576}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolPlanning.Services", "SchoolPlanning.Services\SchoolPlanning.Services.csproj", "{7695CEF6-C2B9-4E9E-B00F-69C05731054E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolPlanning.Services", "SchoolPlanning.Services\SchoolPlanning.Services.csproj", "{7695CEF6-C2B9-4E9E-B00F-69C05731054E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolPlanning.Infrastructure", "SchoolPlanning.Infrastructure\SchoolPlanning.Infrastructure.csproj", "{81B961FC-0F10-483D-8247-B3777D4C17D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolPlanning.Infrastructure", "SchoolPlanning.Infrastructure\SchoolPlanning.Infrastructure.csproj", "{81B961FC-0F10-483D-8247-B3777D4C17D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

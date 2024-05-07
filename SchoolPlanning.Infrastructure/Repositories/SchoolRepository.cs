@@ -19,7 +19,13 @@ namespace SchoolPlanning.Infrastructure.Repositories
 
         public async Task Add(School school)
         {
-            base.Add(school);
+           await base.Add(school);
+        }
+
+        public async Task DeleteById(int id)
+        {
+            var school = await base.GetById(id);
+            await base.Remove(school);
         }
 
         public IEnumerable<School> GetAll()
@@ -27,5 +33,14 @@ namespace SchoolPlanning.Infrastructure.Repositories
             return base.GetAll().ToList();
         }
 
+        public async Task<School> GetById(int id)
+        {
+            return await base.GetById(id);
+        }
+
+        public async Task UpDate(School school)
+        {
+           await base.Edit(school);
+        }
     }
 }

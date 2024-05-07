@@ -3,13 +3,13 @@
     public interface IRepositorie<T> where T : class
 
     {
-        void Add(T item);
+        Task  Add(T item);
 
-        void Remove(T item);
+        Task Remove(T item);
 
-        void Edit(T item);
+        Task Edit(T item);
 
-        T GetById(object id);
+        Task<T> GetById(object id);
 
         IQueryable<T> GetAll();
 

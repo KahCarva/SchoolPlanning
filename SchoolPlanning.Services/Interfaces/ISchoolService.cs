@@ -13,5 +13,11 @@ namespace SchoolPlanning.Services.Interfaces
 
         IEnumerable<School> GetAll();
 
+        Task<School> GetById(int id);
+
+        Task UpDate (School school);
+
+        Task DeleteById(int id);
+
     }
 }

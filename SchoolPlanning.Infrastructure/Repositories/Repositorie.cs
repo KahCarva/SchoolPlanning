@@ -18,27 +18,27 @@ namespace SchoolPlanning.Infrastructure.Repositories
             this.contexto = contexto;
         }
 
-        public virtual void Add(T item)
+        public virtual async Task Add(T item)
         {
-            contexto.Set<T>().Add(item);
-            contexto.SaveChanges();
+            await contexto.Set<T>().AddAsync(item);
+            await contexto.SaveChangesAsync();
         }
 
-        public virtual void Remove(T item)
+        public virtual async Task Remove(T item)
         {
             contexto.Set<T>().Remove(item);
-            contexto.SaveChanges();
+            await contexto.SaveChangesAsync();
         }
 
-        public virtual void Edit(T item)
+        public virtual async Task Edit(T item)
         {
             contexto.Entry(item).State = EntityState.Modified;
-            contexto.SaveChanges();
+            await contexto.SaveChangesAsync();
         }
 
-        public virtual T GetById(object id)
+        public virtual async Task<T> GetById(object id)
         {
-            return contexto.Set<T>().Find(id);
+            return await contexto.Set<T>().FindAsync(id);
         }
 
 

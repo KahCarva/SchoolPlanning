@@ -25,9 +25,24 @@ namespace SchoolPlanning.Services
             await _schoolRepository.Add(school);
         }
 
+        public async Task DeleteById(int id)
+        {
+            await _schoolRepository.DeleteById(id);
+        }
+
         public IEnumerable<School> GetAll()
         {
             return _schoolRepository.GetAll().ToList();
+        }
+
+        public async Task<School> GetById(int id)
+        {
+            return await _schoolRepository.GetById(id);
+        }
+
+        public async Task UpDate(School school)
+        {
+            await _schoolRepository.UpDate(school);
         }
     }
 }

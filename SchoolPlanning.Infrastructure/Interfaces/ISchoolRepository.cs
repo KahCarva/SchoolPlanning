@@ -12,5 +12,11 @@ namespace SchoolPlanning.Infrastructure.Interfaces
         Task Add(School school);
 
         IEnumerable<School> GetAll();
+
+        Task<School> GetById(int id);
+        
+        Task UpDate(School school);
+
+        Task DeleteById(int id);
     }
 }

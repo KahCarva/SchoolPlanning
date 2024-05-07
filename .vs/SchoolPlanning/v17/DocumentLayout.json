@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\PROJETOS\\SchoolPlanning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81B961FC-0F10-483D-8247-B3777D4C17D2}|SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj|c:\\projetos\\schoolplanning\\schoolplanning.infrastructure\\repositories\\schoolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B961FC-0F10-483D-8247-B3777D4C17D2}|SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj|solutionrelative:schoolplanning.infrastructure\\repositories\\schoolrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{81B961FC-0F10-483D-8247-B3777D4C17D2}|SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj|c:\\projetos\\schoolplanning\\schoolplanning.infrastructure\\repositories\\repositorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81B961FC-0F10-483D-8247-B3777D4C17D2}|SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj|solutionrelative:schoolplanning.infrastructure\\repositories\\repositorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE5D9E5D-5BBA-4E27-93C6-B3C31530C021}|SchoolPlanning.API\\SchoolPlanning.API.csproj|c:\\projetos\\schoolplanning\\schoolplanning.api\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE5D9E5D-5BBA-4E27-93C6-B3C31530C021}|SchoolPlanning.API\\SchoolPlanning.API.csproj|solutionrelative:schoolplanning.api\\controllers\\classescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SchoolRepository.cs",
-              "DocumentMoniker": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\Repositories\\SchoolRepository.cs",
-              "RelativeDocumentMoniker": "SchoolPlanning.Infrastructure\\Repositories\\SchoolRepository.cs",
-              "ToolTip": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\Repositories\\SchoolRepository.cs",
-              "RelativeToolTip": "SchoolPlanning.Infrastructure\\Repositories\\SchoolRepository.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBMAAAAdAAAA",
+              "Title": "ClassesController.cs",
+              "DocumentMoniker": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.API\\Controllers\\ClassesController.cs",
+              "RelativeDocumentMoniker": "SchoolPlanning.API\\Controllers\\ClassesController.cs",
+              "ToolTip": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.API\\Controllers\\ClassesController.cs",
+              "RelativeToolTip": "SchoolPlanning.API\\Controllers\\ClassesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T12:18:03.901Z",
+              "WhenOpened": "2024-05-07T09:10:35.966Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Repositorie.cs",
-              "DocumentMoniker": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\Repositories\\Repositorie.cs",
-              "RelativeDocumentMoniker": "SchoolPlanning.Infrastructure\\Repositories\\Repositorie.cs",
-              "ToolTip": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\Repositories\\Repositorie.cs",
-              "RelativeToolTip": "SchoolPlanning.Infrastructure\\Repositories\\Repositorie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-02T12:17:39.239Z"
             }
           ]
         }

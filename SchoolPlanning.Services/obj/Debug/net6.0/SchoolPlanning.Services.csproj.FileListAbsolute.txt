@@ -21,3 +21,9 @@ C:\PROJETOS\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\SchoolPlanni
 C:\PROJETOS\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\refint\SchoolPlanning.Services.dll
 C:\PROJETOS\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\SchoolPlanning.Services.pdb
 C:\PROJETOS\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\ref\SchoolPlanning.Services.dll
+C:\PROJETOS\SchoolPlanning\SchoolPlanning.Services\bin\Debug\net6.0\SchoolPlanning.Domain.dll
+C:\PROJETOS\SchoolPlanning\SchoolPlanning.Services\bin\Debug\net6.0\SchoolPlanning.Infrastructure.dll
+C:\PROJETOS\SchoolPlanning\SchoolPlanning.Services\bin\Debug\net6.0\SchoolPlanning.Domain.pdb
+C:\PROJETOS\SchoolPlanning\SchoolPlanning.Services\bin\Debug\net6.0\SchoolPlanning.Infrastructure.pdb
+C:\PROJETOS\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\SchoolPlanning.Services.csproj.AssemblyReference.cache
+C:\PROJETOS\SchoolPlanning\SchoolPlanning.Services\obj\Debug\net6.0\SchoolPl.72CDC464.Up2Date

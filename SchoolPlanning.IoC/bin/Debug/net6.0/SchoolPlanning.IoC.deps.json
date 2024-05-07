@@ -9,7 +9,8 @@
       "SchoolPlanning.IoC/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
-          "SchoolPlanning.Infrastructure": "1.0.0"
+          "SchoolPlanning.Infrastructure": "1.0.0",
+          "SchoolPlanning.Services": "1.0.0"
         },
         "runtime": {
           "SchoolPlanning.IoC.dll": {}
@@ -478,6 +479,15 @@
         "runtime": {
           "SchoolPlanning.Infrastructure.dll": {}
         }
+      },
+      "SchoolPlanning.Services/1.0.0": {
+        "dependencies": {
+          "SchoolPlanning.Domain": "1.0.0",
+          "SchoolPlanning.Infrastructure": "1.0.0"
+        },
+        "runtime": {
+          "SchoolPlanning.Services.dll": {}
+        }
       }
     }
   },
@@ -773,6 +783,11 @@
       "sha512": ""
     },
     "SchoolPlanning.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SchoolPlanning.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

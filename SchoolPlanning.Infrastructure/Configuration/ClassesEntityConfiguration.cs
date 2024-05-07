@@ -8,7 +8,7 @@ namespace SchoolPlanning.Infrastructure.Configuration
     {
         public void Configure(EntityTypeBuilder<Employee> builder)
         {
-            builder.HasOne(q => q.School).WithOne(q => q.Employee);
+            //builder.HasOne(q => q.School).WithOne(q => q.Employee);
         }
     }
 }

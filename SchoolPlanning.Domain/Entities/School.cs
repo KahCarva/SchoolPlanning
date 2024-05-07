@@ -24,6 +24,5 @@ namespace SchoolPlanning.Domain.Entities
 
         public bool Active { get; set; }
 
-        public Employee Employee { get; set; }
     }
 }

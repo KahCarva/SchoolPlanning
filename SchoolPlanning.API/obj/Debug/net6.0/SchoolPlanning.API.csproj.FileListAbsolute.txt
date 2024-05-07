@@ -149,3 +149,5 @@ C:\PROJETOS\SchoolPlanning\SchoolPlanning.API\obj\Debug\net6.0\refint\SchoolPlan
 C:\PROJETOS\SchoolPlanning\SchoolPlanning.API\obj\Debug\net6.0\SchoolPlanning.API.pdb
 C:\PROJETOS\SchoolPlanning\SchoolPlanning.API\obj\Debug\net6.0\SchoolPlanning.API.genruntimeconfig.cache
 C:\PROJETOS\SchoolPlanning\SchoolPlanning.API\obj\Debug\net6.0\ref\SchoolPlanning.API.dll
+C:\PROJETOS\SchoolPlanning\SchoolPlanning.API\bin\Debug\net6.0\SchoolPlanning.Services.dll
+C:\PROJETOS\SchoolPlanning\SchoolPlanning.API\bin\Debug\net6.0\SchoolPlanning.Services.pdb

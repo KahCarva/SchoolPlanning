@@ -763,6 +763,20 @@
         "runtime": {
           "bin/placeholder/SchoolPlanning.Infrastructure.dll": {}
         }
+      },
+      "SchoolPlanning.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "SchoolPlanning.Domain": "1.0.0",
+          "SchoolPlanning.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SchoolPlanning.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SchoolPlanning.Services.dll": {}
+        }
       }
     }
   },
@@ -1945,12 +1959,18 @@
       "type": "project",
       "path": "../SchoolPlanning.Infrastructure/SchoolPlanning.Infrastructure.csproj",
       "msbuildProject": "../SchoolPlanning.Infrastructure/SchoolPlanning.Infrastructure.csproj"
+    },
+    "SchoolPlanning.Services/1.0.0": {
+      "type": "project",
+      "path": "../SchoolPlanning.Services/SchoolPlanning.Services.csproj",
+      "msbuildProject": "../SchoolPlanning.Services/SchoolPlanning.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.1",
-      "SchoolPlanning.Infrastructure >= 1.0.0"
+      "SchoolPlanning.Infrastructure >= 1.0.0",
+      "SchoolPlanning.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1989,6 +2009,9 @@
           "projectReferences": {
             "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj": {
               "projectPath": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj"
+            },
+            "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Services\\SchoolPlanning.Services.csproj": {
+              "projectPath": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Services\\SchoolPlanning.Services.csproj"
             }
           }
         }

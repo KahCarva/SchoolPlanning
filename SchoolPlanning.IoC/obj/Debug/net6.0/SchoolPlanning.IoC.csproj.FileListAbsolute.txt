@@ -33,3 +33,5 @@ C:\PROJETOS\SchoolPlanning\SchoolPlanning.IoC\obj\Debug\net6.0\SchoolPlanning.Io
 C:\PROJETOS\SchoolPlanning\SchoolPlanning.IoC\obj\Debug\net6.0\refint\SchoolPlanning.IoC.dll
 C:\PROJETOS\SchoolPlanning\SchoolPlanning.IoC\obj\Debug\net6.0\SchoolPlanning.IoC.pdb
 C:\PROJETOS\SchoolPlanning\SchoolPlanning.IoC\obj\Debug\net6.0\ref\SchoolPlanning.IoC.dll
+C:\PROJETOS\SchoolPlanning\SchoolPlanning.IoC\bin\Debug\net6.0\SchoolPlanning.Services.dll
+C:\PROJETOS\SchoolPlanning\SchoolPlanning.IoC\bin\Debug\net6.0\SchoolPlanning.Services.pdb

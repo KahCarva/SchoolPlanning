@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SchoolPlanning.Infrastructure\SchoolPlanning.Infrastructure.csproj" />
+    <ProjectReference Include="..\SchoolPlanning.Services\SchoolPlanning.Services.csproj" />
   </ItemGroup>
 
 </Project>

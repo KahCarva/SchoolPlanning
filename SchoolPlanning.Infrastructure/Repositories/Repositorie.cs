@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using SchoolPlanning.Domain.Entities;
 using SchoolPlanning.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SchoolPlanning.Infrastructure.Repositories
 {
-    public class Repositorie<T> : IDisposable, IRepositorie<T> where T : class
+    public class Repositorie<T> : IDisposable, IRepositorie<T> where T : BaseEntity
     {
         protected readonly SchoolPlanningContext contexto;
 

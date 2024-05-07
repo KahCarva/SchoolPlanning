@@ -80,8 +80,7 @@ namespace SchoolPlanning.Infrastructure.Migrations
                     b.HasIndex("ClassesId")
                         .IsUnique();
 
-                    b.HasIndex("SchoolId")
-                        .IsUnique();
+                    b.HasIndex("SchoolId");
 
                     b.ToTable("Employee", "Entity");
                 });
@@ -135,8 +134,8 @@ namespace SchoolPlanning.Infrastructure.Migrations
                         .IsRequired();
 
                     b.HasOne("SchoolPlanning.Domain.Entities.School", "School")
-                        .WithOne("Employee")
-                        .HasForeignKey("SchoolPlanning.Domain.Entities.Employee", "SchoolId")
+                        .WithMany()
+                        .HasForeignKey("SchoolId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -146,12 +145,6 @@ namespace SchoolPlanning.Infrastructure.Migrations
                 });
 
             modelBuilder.Entity("SchoolPlanning.Domain.Entities.Classes", b =>
-                {
-                    b.Navigation("Employee")
-                        .IsRequired();
-                });
-
-            modelBuilder.Entity("SchoolPlanning.Domain.Entities.School", b =>
                 {
                     b.Navigation("Employee")
                         .IsRequired();

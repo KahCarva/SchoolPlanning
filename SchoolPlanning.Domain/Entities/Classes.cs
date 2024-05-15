@@ -13,7 +13,5 @@ namespace SchoolPlanning.Domain.Entities
         public string SchoolGrade { get; set; }
 
         public int Year { get; set; }
-
-        public Employee Employee { get; set; }
     }
 }

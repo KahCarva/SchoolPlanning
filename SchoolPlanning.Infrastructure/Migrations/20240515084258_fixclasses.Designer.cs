@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SchoolPlanning.Infrastructure;
 
@@ -10,9 +11,10 @@ using SchoolPlanning.Infrastructure;
 namespace SchoolPlanning.Infrastructure.Migrations
 {
     [DbContext(typeof(SchoolPlanningContext))]
-    partial class SchoolPlanningContextModelSnapshot : ModelSnapshot
+    [Migration("20240515084258_fixclasses")]
+    partial class fixclasses
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

@@ -4,11 +4,11 @@ using SchoolPlanning.Domain.Entities;
 
 namespace SchoolPlanning.Infrastructure.Configuration
 {
-    public class ClassesEntityConfiguration : IEntityTypeConfiguration<Classes>
+    public class EmployeeEntityConfiguration : IEntityTypeConfiguration<Employee>
     {
-        public void Configure(EntityTypeBuilder<Classes> builder)
+        public void Configure(EntityTypeBuilder<Employee> builder)
         {
-            builder.HasOne(q => q.Employee).WithOne(q => q.Classes);
+            //builder.HasOne(q => q.School).WithOne(q => q.Employee);
         }
     }
 }

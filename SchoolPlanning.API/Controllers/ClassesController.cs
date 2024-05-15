@@ -1,4 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SchoolPlanning.Domain.Entities;
+using SchoolPlanning.Services;
+using SchoolPlanning.Services.Interfaces;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +11,42 @@ namespace SchoolPlanning.API.Controllers
     [ApiController]
     public class ClassesController : ControllerBase
     {
-        // GET: api/<ClassesController>
+
+        private readonly IClassesService _classesService;
+
+        public ClassesController(IClassesService classesService)
+        {
+            _classesService = classesService;
+        }
+
         [HttpGet]
-        public IEnumerable<string> Get()
+        public IEnumerable<Classes> Get()
         {
-            return new string[] { "value1", "value2" };
+            return _classesService.GetAll();
         }
 
-        // GET api/<ClassesController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<Classes> Get(int id)
         {
-            return "value";
+            return await _classesService.GetById(id);
         }
 
-        // POST api/<ClassesController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task Post([FromBody] Classes classes)
         {
+            await _classesService.Add(classes);
         }
 
-        // PUT api/<ClassesController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task Put([FromBody] Classes classes, int id)
         {
+            await _classesService.UpDate(classes);
         }
 
-        // DELETE api/<ClassesController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
+            await _classesService.DeleteById(id);
         }
     }
 }

@@ -20,3 +20,7 @@
 /SchoolPlanning.API/bin/Debug/net6.0/SchoolPlanning.Infrastructure.pdb
 /SchoolPlanning.API/bin/Debug/net6.0/SchoolPlanning.IoC.pdb
 /SchoolPlanning.API/bin/Debug/net6.0/SchoolPlanning.Services.pdb
+/SchoolPlanning.API/obj/Debug/net6.0/ref/SchoolPlanning.API.dll
+/SchoolPlanning.API/obj/Debug/net6.0/refint/SchoolPlanning.API.dll
+/SchoolPlanning.Domain/bin/Debug/net6.0/SchoolPlanning.Domain.dll
+/SchoolPlanning.Domain/bin/Debug/net6.0/SchoolPlanning.Domain.pdb

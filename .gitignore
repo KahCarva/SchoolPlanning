@@ -11,3 +11,12 @@
 /.vs/SchoolPlanning/FileContentIndex/bafe0b85-6e2a-4cd8-bfd2-ee93d52425e1.vsidx
 /.vs/SchoolPlanning/v17/.suo
 /.vs/SchoolPlanning/v17/DocumentLayout.json
+/.vs/SchoolPlanning/FileContentIndex
+/.vs/SchoolPlanning/v17/.futdcache.v2
+*.dll
+*.exe
+/SchoolPlanning.API/bin/Debug/net6.0/SchoolPlanning.API.pdb
+/SchoolPlanning.API/bin/Debug/net6.0/SchoolPlanning.Domain.pdb
+/SchoolPlanning.API/bin/Debug/net6.0/SchoolPlanning.Infrastructure.pdb
+/SchoolPlanning.API/bin/Debug/net6.0/SchoolPlanning.IoC.pdb
+/SchoolPlanning.API/bin/Debug/net6.0/SchoolPlanning.Services.pdb

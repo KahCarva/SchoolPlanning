@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/ProjectEvaluation/schoolplanning.metadata.v7.bin
+/.vs/ProjectEvaluation/schoolplanning.projects.v7.bin
+/.vs/SchoolPlanning/DesignTimeBuild/.dtbcache.v2
+/.vs/SchoolPlanning/FileContentIndex/483d9611-379b-4a6c-be26-1dd1b0f18f7e.vsidx
+/.vs/SchoolPlanning/FileContentIndex/6ac6b68d-d538-434b-95fe-defbbdaec3b9.vsidx
+/.vs/SchoolPlanning/FileContentIndex/7d44fc10-939a-44cb-9173-fd46c4d6ed6e.vsidx
+/.vs/SchoolPlanning/FileContentIndex/bafe0b85-6e2a-4cd8-bfd2-ee93d52425e1.vsidx
+/.vs/SchoolPlanning/v17/.suo
+/.vs/SchoolPlanning/v17/DocumentLayout.json

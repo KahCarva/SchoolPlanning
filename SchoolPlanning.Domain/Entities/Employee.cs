@@ -24,8 +24,8 @@ namespace SchoolPlanning.Domain.Entities
 
         public string CPF { get; set; }
 
-        public School School { get; set; }
+        //public School School { get; set; }
 
-        public Classes Classes { get; set; }
+        //public Classes Classes { get; set; }
     }
 }

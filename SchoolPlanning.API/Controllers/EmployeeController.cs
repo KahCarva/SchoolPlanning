@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SchoolPlanning.Domain.Entities;
+using SchoolPlanning.Services;
 using SchoolPlanning.Services.Interfaces;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
@@ -17,29 +18,34 @@ namespace SchoolPlanning.API.Controllers
            _employeeService = employeeService;
         }
 
-        // GET api/<EmployeeController>/5
-        [HttpGet("{id}")]
-        public IEnumerable<Employee>Get()
+        [HttpGet]
+        public IEnumerable<Employee> Get()
         {
             return _employeeService.GetAll();
         }
 
-        // POST api/<EmployeeController>
+        [HttpGet("{id}")]
+        public async Task<Employee> Get(int id)
+        {
+            return await _employeeService.GetById(id);
+        }
+
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task Post([FromBody] Employee employee)
         {
+            await _employeeService.Add(employee);
         }
 
-        // PUT api/<EmployeeController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task Put([FromBody] Employee employee, int id)
         {
+            await _employeeService.UpDate(employee);
         }
 
-        // DELETE api/<EmployeeController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task Delete(int id)
         {
+            await _employeeService.DeleteById(id);
         }
     }
 }

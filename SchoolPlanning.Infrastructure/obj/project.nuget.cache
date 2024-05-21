@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "1kSxnu6J0sJ3vr+lFRYNCCDiBLxKozG2hqoenKREcqJ9NM6P13Gc29nZm6wWQrZAQmmjB/io1etttT9tPqO2Mw==",
+  "dgSpecHash": "w5G/d5ah3EBLVlIonafvEaJUzUTmiE5FxR4vOqxLtjbmONKam3DbCuwoJWh4fh8ofuLgALj145nAGAZSmCHNbQ==",
   "success": true,
   "projectFilePath": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Infrastructure\\SchoolPlanning.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -47,9 +47,9 @@
     "C:\\Users\\karin_000\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\karin_000\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\karin_000\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
+    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "KO5SUBSlrjRwtYGPbt47zZdu9h5ubZoJ74nktCm+2DtKQ0RvBQOKtIkbIKDq9DwMvcEzuvkLzLC/g7TnCmiSPQ==",
+  "dgSpecHash": "HvPVcvhAOsRJ+z2r4OvS5Zo6uNsWDo0nyRPeWnpqql4SHY9dacNaMQySYp3VuyDXRIt3M+MRFSxvZtZdZc4/Gg==",
   "success": true,
   "projectFilePath": "C:\\PROJETOS\\SchoolPlanning\\SchoolPlanning.Domain\\SchoolPlanning.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.29\\microsoft.windowsdesktop.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.29\\microsoft.netcore.app.ref.6.0.29.nupkg.sha512",
-    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.29\\microsoft.aspnetcore.app.ref.6.0.29.nupkg.sha512"
+    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.30\\microsoft.windowsdesktop.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.30\\microsoft.netcore.app.ref.6.0.30.nupkg.sha512",
+    "C:\\Users\\karin_000\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.30\\microsoft.aspnetcore.app.ref.6.0.30.nupkg.sha512"
   ],
   "logs": []
 }

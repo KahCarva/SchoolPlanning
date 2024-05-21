@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolPlanning.IoC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58038411d0a4f3747dec2eb9f53b1f9f9b0e03ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dee4df35a2759328cac5bafbbc33c1f5ae24861c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolPlanning.IoC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolPlanning.IoC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

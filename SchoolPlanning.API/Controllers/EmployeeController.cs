@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using SchoolPlanning.Services.Interfaces;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,18 +9,18 @@ namespace SchoolPlanning.API.Controllers
     [ApiController]
     public class EmployeeController : ControllerBase
     {
-        // GET: api/<EmployeeController>
+        private readonly IEmployeeService _employeeService;
         [HttpGet]
-        public IEnumerable<string> Get()
+        public EmployeeController(IEmployeeService employeeService)
         {
-            return new string[] { "value1", "value2" };
+           _employeeService = employeeService;
         }
 
         // GET api/<EmployeeController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public IEnumerable<Employee>Get()
         {
-            return "value";
+            return _employeeService.GetAll();
         }
 
         // POST api/<EmployeeController>

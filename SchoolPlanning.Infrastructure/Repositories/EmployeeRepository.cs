@@ -16,16 +16,6 @@ namespace SchoolPlanning.Infrastructure.Repositories
             _context = contexto;
         }
 
-        public async Task Add(Employee employee)
-        {
-            await base.Add(employee);
-        }
-
-        public Task Add(Classes classes)
-        {
-            throw new NotImplementedException();
-        }
-
         public async Task DeleteById(int id)
         {
             var employee = await base.GetById(id);
@@ -47,19 +37,6 @@ namespace SchoolPlanning.Infrastructure.Repositories
             await base.Edit(employee);
         }
 
-        public Task UpDate(Classes classes)
-        {
-            throw new NotImplementedException();
-        }
-
-        IEnumerable<Classes> IEmployeeRepository.GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        Task<Classes> IEmployeeRepository.GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
+ 
     }
 }

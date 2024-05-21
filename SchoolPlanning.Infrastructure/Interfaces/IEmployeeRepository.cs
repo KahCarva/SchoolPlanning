@@ -18,6 +18,5 @@ namespace SchoolPlanning.Infrastructure.Interfaces
         Task DeleteById(int id);
 
         IEnumerable<Employee> GetAll();
-        Task Add(Employee employee);
     }
 }
